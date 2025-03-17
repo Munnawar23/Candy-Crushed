@@ -19,11 +19,25 @@ interface LevelStore{
 export const useLevelStore = create<LevelStore>()(
     persist(
         (set, get) => ({
-            level: initialLevelData,
+            levels: initialLevelData,
             unlockLevel: (id:number) =>{
-                
+                set((state)=>{
+                    const updatedLevels = state.levels.map((level)=>
+                    level.id === id ? {...level, unlocked: true}: level
+                    )
+                    return {levels: updatedLevels}
+                });
+            },
+            completeLevel: (id:number, collectedCandies: number)=>{
+                set((state)=>{
+                    const updatedLevels = state.levels.map((level)=>
+                    level.id===id ? {...level,completed:true,highScore:Math.max(level.highScore,collectedCandies)}
+                    : level 
+                    )
+                    return {levels:updatedLevels}
+                })
             }
-        })
+        }),
         {
             name: 'level-storage',
             storage: createJSONStorage(()=> mmkvStorage),
