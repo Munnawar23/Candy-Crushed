@@ -19,10 +19,10 @@ export const gameLevels: GameLevels = {
             [4, 5, 1, 3, 3, 1],
             [2, 1, 2, 4, 5, 1],
             [1, 2, 1, 1, 2, 5],
-            [null, 3, 2, 1, 5, null],
+            [1, 3, 2, 1, 5, null],
         ],
         pass: 80,
-        time: 30000
+        time: 40000
     },
     level2: {
         grid: [
@@ -33,7 +33,7 @@ export const gameLevels: GameLevels = {
             [4, 3, 2, 1, 1, 2, null],
         ],
         pass: 120,
-        time: 35000
+        time: 50000
     },
     level3: {
         grid: [
@@ -44,7 +44,7 @@ export const gameLevels: GameLevels = {
             [4, 3, 2, 5, 1, 2, 4],
         ],
         pass: 150,
-        time: 40000
+        time: 60000
     },
     level4: {
         grid: [
@@ -58,7 +58,7 @@ export const gameLevels: GameLevels = {
             [1, 2, 5, 3, 1, 2, 1],
         ],
         pass: 200,
-        time: 45000
+        time: 70000
     },
     level5: {
         grid: [
@@ -73,7 +73,7 @@ export const gameLevels: GameLevels = {
             [5, 2, 3, 4, 1, 3, 2],
         ],
         pass: 250,
-        time: 50000
+        time: 80000
     },
     level6: {
         grid: [
@@ -88,7 +88,7 @@ export const gameLevels: GameLevels = {
             [2, 3, 4, 1, 5, 3, 2],
         ],
         pass: 280,
-        time: 55000
+        time: 90000
     },
     level7: {
         grid: [
@@ -103,7 +103,7 @@ export const gameLevels: GameLevels = {
             [2, 3, 1, 2, 5, 4, 1],
         ],
         pass: 350,
-        time: 60000
+        time: 90000
     },
     level8: {
         grid: [
@@ -119,7 +119,7 @@ export const gameLevels: GameLevels = {
             [5, 4, 2, 3, 1, 2, 5],
         ],
         pass: 380,
-        time: 65000
+        time: 95000
     },
     level9: {
         grid: [
@@ -135,7 +135,7 @@ export const gameLevels: GameLevels = {
             [3, 4, 5, 2, 1, 2, 3],
         ],
         pass: 400,
-        time: 70000
+        time: 96000
     },
     level10: {
         grid: [
@@ -151,7 +151,7 @@ export const gameLevels: GameLevels = {
             [null, null, null, 1, null, null, null],
         ],
         pass: 500,
-        time: 75000
+        time: 95000
     },
 };
 

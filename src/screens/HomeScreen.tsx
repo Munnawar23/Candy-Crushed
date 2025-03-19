@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
     height: screenHeight * 0.5,
     position: 'absolute',
     resizeMode: 'contain',
-    top: -20,
+    top: -80,
   },
   lottieView: {
     width: 200,

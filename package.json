@@ -9,7 +9,7 @@
     "start": "react-native start",
     "link-fonts": "npx react-native-asset",
     "test": "jest",
-    "create-apk": "cd android && ./gradlew assembleRelease"
+    "create-apk": "cd android && gradlew.bat assembleRelease"
   },
   "dependencies": {
     "@react-navigation/native": "^7.0.15",
