@@ -43,7 +43,8 @@ export const levelStyles = StyleSheet.create({
         opacity: 0.7,
     },
     levelItem: {
-        width: '48%',
+        width: '49%', // Reduce slightly to give more space
+        minWidth: 110, // Ensure minimum width to fit "Level X"
         height: 120,
         padding: 15,
         backgroundColor: '#fff',
@@ -54,7 +55,7 @@ export const levelStyles = StyleSheet.create({
     },
     levelText: {
         fontFamily: FONTS.Lily,
-        fontSize: RFValue(16),
+        fontSize: RFValue(16), // Increase size
         color: '#333',
         textAlign: 'center',
     },
