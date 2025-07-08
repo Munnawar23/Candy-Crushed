@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <View style={styles.container}>
       <TouchableOpacity onPress={()=> Linking.openURL('https://www.linkedin.com/in/munnawar-hussain-aa544b227/')} > 
-        <Text style={styles.text}>Made with 🥰</Text>
+        <Text style={styles.text}>Made with Love</Text>
         <Text style={styles.text2}>by - Munnawar Hussain</Text>
       </TouchableOpacity>
     </View>
