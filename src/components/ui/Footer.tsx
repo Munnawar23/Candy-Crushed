@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <View style={styles.container}>
       <TouchableOpacity onPress={()=> Linking.openURL('https://www.linkedin.com/in/munnawar-hussain-aa544b227/')} > 
-        <Text style={styles.text}>Made with 🥰</Text>
+        <Text style={styles.text}>Made with Love</Text>
         <Text style={styles.text2}>by - Munnawar Hussain</Text>
       </TouchableOpacity>
     </View>
@@ -23,18 +23,16 @@ const styles = StyleSheet.create({
     text:{
         fontFamily: FONTS.twinkle,
         fontSize: RFValue(12),
-        color: "#fff",
+        color: "#000",
         textAlign: "center",
-        textShadowColor: 'rgba(0,0,0,0.75)',
         textShadowOffset: {width: 2, height: 2},
         textShadowRadius: 2,
     },
     text2:{
         fontFamily: FONTS.twinkle,
         fontSize: RFValue(16),
-        color: "#fff",
+        color: "#000",
         textAlign: "center",
-        textShadowColor: 'rgba(0,0,0,0.75)',
         textShadowOffset: {width: 2, height: 2},
         textShadowRadius: 3,
     }

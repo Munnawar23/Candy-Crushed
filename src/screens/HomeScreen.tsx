@@ -35,7 +35,7 @@ const HomeScreen = () => {
 
   return (
     <ImageBackground
-      source={require('../assets/images/b2.png')}
+      source={require('../assets/images/b1.png')}
       style={commonStyles.container}>
       <Animated.Image
         source={require('../assets/images/banner.png')}
