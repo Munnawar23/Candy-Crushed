@@ -23,18 +23,16 @@ const styles = StyleSheet.create({
     text:{
         fontFamily: FONTS.twinkle,
         fontSize: RFValue(12),
-        color: "#fff",
+        color: "#000",
         textAlign: "center",
-        textShadowColor: 'rgba(0,0,0,0.75)',
         textShadowOffset: {width: 2, height: 2},
         textShadowRadius: 2,
     },
     text2:{
         fontFamily: FONTS.twinkle,
         fontSize: RFValue(16),
-        color: "#fff",
+        color: "#000",
         textAlign: "center",
-        textShadowColor: 'rgba(0,0,0,0.75)',
         textShadowOffset: {width: 2, height: 2},
         textShadowRadius: 3,
     }
